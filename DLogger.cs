@@ -47,6 +47,14 @@ namespace DedSimpleLogger
         }
 
         /// <summary>
+        /// TurnOff logging by setting the Log Level to NoLog (LogLevels.NoLog).
+        /// Alternatively, you can call Configure with NoLog Log Level.
+        /// </summary>
+        public static void TurnOff() {
+            DLogger.logLevel = LogLevels.NoLog;
+        }
+
+        /// <summary>
         /// Determine if a given message's log level should be logged based on it's hierarchy status.
         /// </summary>
         /// <param name="messageLevel">The level of the message to check.</param>
