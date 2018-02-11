@@ -2,7 +2,7 @@
 
 ## Purpose
 
-To provide a simple plugin that enables hierarchical logging throughout a Unity application.
+To provide a simple package that enables hierarchical logging throughout a Unity application.
 
 ## Getting Started
 
