@@ -6,7 +6,8 @@ using DedSimpleLogger;
 public class minimal : MonoBehaviour {
 
 	void Awake () {
-		// Default prefix is the package name, and log level is info.
-		DLogger.Log("Configured Logger");
+		// You can opt to use the default prefix and log level (info).
+		DLogger.Log("using defaults, this will show.");
+		DLogger.Debug("using defaults, this will not show.");
 	}
 }
