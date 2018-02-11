@@ -4,7 +4,7 @@ using UnityEngine;
 // Include the logger
 using DedSimpleLogger;
 
-public class main : MonoBehaviour {
+public class general : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake () {
